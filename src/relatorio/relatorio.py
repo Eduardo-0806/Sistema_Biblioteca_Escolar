@@ -6,31 +6,31 @@ class Relatorio:
     def __init__(self):
 
         #Abre o arquivo contendo o código SQL para gerar o relatório de alunos cadastrados e guarda em um atributo da classe
-        with open("sql_relatorios\\relatorio_de_alunos_cadastrados.sql") as f:
+        with open("sql_relatorios/relatorio_de_alunos_cadastrados.sql") as f:
             self.relatorio_alunos_cadastrados = f.read()
         
         #Abre o arquivo contendo o código SQL para gerar o relatório de alunos devedores e guarda em um atributo da classe
-        with open("sql_relatorios\\relatorio_alunos_devedores.sql") as f:
+        with open("sql_relatorios/relatorio_alunos_devedores.sql") as f:
             self.relatorio_alunos_devedores = f.read()
 
         #Abre o arquivo contendo o código SQL para gerar o relatório da quantidade de emprestimos por alunos e guarda em um atributo da classe
-        with open("sql_relatorios\\relatorio_alunos_quantidade_emprestimos.sql") as f:
+        with open("sql_relatorios/relatorio_alunos_quantidade_emprestimos.sql") as f:
             self.relatorio_alunos_quantidade_emprestimos = f.read()
 
         #Abre o arquivo contendo o código SQL para gerar o relatório de livros no acervo e guarda em um atributo da classe
-        with open("sql_relatorios\\relatorio_de_livros_acervos.sql") as f:
+        with open("sql_relatorios/relatorio_de_livros_acervos.sql") as f:
             self.relatorio_de_livros_acervos = f.read()
 
         #Abre o arquivo contendo o código SQL para gerar o relatório do estoque de livros emprestados e guarda em um atributo da classe
-        with open("sql_relatorios\\relatorio_de_estoque_livros_emprestados.sql") as f:
+        with open("sql_relatorios/relatorio_de_estoque_livros_emprestados.sql") as f:
             self.relatorio_de_estoque_livros = f.read()
         
         #Abre o arquivo contendo o código SQL para gerar o relatório de emprestimos cadastrados e guarda em um atributo da classe
-        with open("sql_relatorios\\relatorio_de_emprestimos_cadastrados.sql") as f:
+        with open("sql_relatorios/relatorio_de_emprestimos_cadastrados.sql") as f:
             self.relatorio_de_emprestimo_cadastrados = f.read()
         
         #Abre o arquivo contendo o código SQL para gerar o relatório de emprestimos atrasados e guarda em um atributo da classe
-        with open("sql_relatorios\\relatorio_de_emprestimos_atrasados.sql") as f:
+        with open("sql_relatorios/relatorio_de_emprestimos_atrasados.sql") as f:
             self.relatorio_de_emprestimos_atrasados = f.read()
 
     def get_relatorio_alunos_cadastrados(self):

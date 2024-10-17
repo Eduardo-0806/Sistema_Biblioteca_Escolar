@@ -34,4 +34,4 @@ def limpar_console(tempo_pausa: int = 3):
     import os
     from time import sleep
     sleep(tempo_pausa)
-    os.system('cls')
+    os.system('clear')

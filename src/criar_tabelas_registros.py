@@ -48,16 +48,15 @@ def run():
     """
     
     #Guarda em uma variável o arquivo contendo o código SQL para criação das tabelas
-    with open("..\\sql_tabelas\\criar_tabelas_biblioteca_escolar.sql") as f:
+    with open("../sql_tabelas/criar_tabelas_biblioteca_escolar.sql") as f:
         query_criacao = f.read()
-
     #Realiza a função para criação das tabelas
     print("Criando tabela")
     criar_tabelas(query_criacao)
     print("Tabela criada com sucesso")
 
     #Guarda em uma variável o arquivo contendo o código SQL para inserção de regisros
-    with open("..\\sql_tabelas\\inserir_dados_tabelas_biblioteca_escolar.sql") as f:
+    with open("../sql_tabelas/inserir_dados_tabelas_biblioteca_escolar.sql") as f:
         query_registros = f.read()
     
     #Realiza a função para inserção de registros
