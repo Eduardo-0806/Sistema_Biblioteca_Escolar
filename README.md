@@ -1,15 +1,15 @@
 __README temporário__
-Readme será unicamente para propósito de informar bibliotecas e o necessário para utilização do projeto nas maquinas virtuais de cada componente
-Logo, isso será mudado até a última versão do projeto
+<p>Readme será, por enquanto, unicamente para propósito de informar bibliotecas e o necessário para utilização do projeto nas maquinas virtuais de cada componente
+Logo, isso será mudado até a última versão do projeto</p>
 
 # Passos Necessários Para Execução do Projeto
 
 ## Bibliotecas necessárias
 <p>Primeiro de tudo, vocês precisam baixar as bibliotecas para que a conexão com o banco de dados mySQL e a exibição dos relatórios sejam feitas.</p>
-<p>Para isso baixem todos os arquivos e pastas do projeto, entre eles, dentro do diretório 'src', terá um arquivo chamado 'bibliotecas.txt'
-através do prompt de comando, utilizando o comando:</p>
+<p>Para isso baixem todos os arquivos e pastas do projeto, entre eles, dentro do diretório 'src', terá um arquivo chamado 'bibliotecas.txt'.
+Através do prompt de comando, utilizando os comandos:</p>
 <p><code>dir</code>(Para Exibir os diretórios que você pode caminhar) e <code>cd >Nome Diretório<</code>(Vai para o diretório passado após o cd)</p>
-<p>Caminharem pelos diretórios do computador, até vocês encontrarem a pasta/diretório onde está salvo as pastas do projeto</p> 
+<p>Vocês devem caminhar pelos diretórios do computador, até vocês encontrarem a pasta/diretório onde estão salvas as pastas do projeto</p> 
 <p>Nisso, vocês realizam mais um cd para entrar no diretório src após isso, basta digitar no prompt de comando o seguinte código:</p>
 <p> <code>pip install -r bibliotecas.txt </code></p>
 <p>Se tiverem caminhado corretamente até o diretório, o prompt de comando(Vulgo terminal) vai mostrar o progresso do download das bibliotecas</p>
